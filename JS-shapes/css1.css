@@ -1,0 +1,10 @@
+.inner-val{
+	display: none
+}
+
+
+.rectangle {
+	width: 200px;
+	height: 100px;
+	background: red;
+}

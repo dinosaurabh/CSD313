@@ -1,0 +1,57 @@
+<html>
+<!-- <style>
+	.inner-val{
+		display: none
+	}
+</style> -->
+<link rel="stylesheet" type="text/css" href="css1.css">
+<body>
+<canvas id="shaping" class="shaping1">
+	
+</canvas>
+<form>
+  <input type="radio" name="shape" value="square" onclick="shapee('square')"> Square<br>
+    <input type="radio" name="shape" value="hexagon" onclick="shapee('hexagon')" >  Hexagon<br>
+   <input type="radio" name="shape" value="rectangle" onclick="shapee('rectangle')">  Rectangle<br>
+   <input type="radio" name="shape" value="circle" onclick="shapee('circle')" >Circle<br>
+   <input type="radio" name="shape" value="triangle" onclick="shapee('triangle')" > Triangle<br>
+</form> 
+<section class="calc-value">
+	<section id="square-val" class="inner-val">
+		Side<input type="number" id="sq-val"><br> 
+		<button onclick="output_square()">Calculate</button><br>
+		Area<input disabled id="sq-area"></div><br>
+		Perimeter<input disabled id="sq-peri"></div><br>
+	</section>
+	<section id="rectangle-val" class="inner-val">
+		Length<input type="number" id="rec-len"><br>
+		Breadth<input type="number" id="rec-bre"><br> 
+		<button onclick="output_rectangle()">Calculate</button><br>
+		Area<input disabled id="rec-area"></div><br>
+		Perimeter<input disabled id="rec-peri"></div>
+	</section>
+	<section id="triangle-val" class="inner-val">
+		Side 1<input type="number" id="tri-s1"><br>
+		Side 2<input type="number" id="tri-s2"><br> 
+		Side 3<input type="number" id="tri-s3"><br> 
+		<button onclick="output_triangle()">Calculate</button><br>
+		Area<input disabled id="tri-area"></div><br>
+		Perimeter<input disabled id="tri-peri"></div>
+	</section>
+	<section id="circle-val" class="inner-val">
+		Radius<input type="number" id="circ-r"><br>
+		<button onclick="output_circle()">Calculate</button><br>
+		Area<input disabled id="circ-area"></div><br>
+		Perimeter<input disabled id="circ-peri"></div>
+	</section>
+	<section id="hexagon-val" class="inner-val">
+		Side<input type="number" id="hex-s"><br>
+		<button onclick="output_hexagon()">Calculate</button><br>
+		Area<input disabled id="hex-area"></div><br>
+		Perimeter<input disabled id="hex-peri"></div>
+	</section>
+</section>
+
+</body>
+<script src="javas.js"></script>
+</html>
